@@ -1,0 +1,17 @@
+name: Share a FLEX preset
+description: Share a swap preset with other FLEX players. Paste the code FLEX gives you.
+title: "Preset name"
+labels: ["flex-preset"]
+body:
+  - type: input
+    id: code
+    attributes:
+      label: Share code
+      description: The FLEX1- code from FLEX (Library > Share). FLEX fills this in for you.
+    validations:
+      required: true
+  - type: textarea
+    id: about
+    attributes:
+      label: What does it look like?
+      description: Optional. Which items it swaps, what car it's for, a screenshot.
